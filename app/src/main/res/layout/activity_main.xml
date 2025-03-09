@@ -6,13 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center">
 
     <EditText
         android:id="@+id/inputField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your text here" />
+        android:hint="Enter your text here"
+        android:gravity="center" />
 
     <Button
         android:id="@+id/submitButton"
@@ -27,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:gravity="center" />
 
 
 </LinearLayout>
